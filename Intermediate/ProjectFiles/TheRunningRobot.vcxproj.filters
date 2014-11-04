@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TheRunningRobot.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6EF0EDAD-2FA1-4BE1-B33B-BF0C6DEE6F9E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TheRunningRobot.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TheRunningRobotEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{AED3A1B1-389E-4039-BC29-C74F560AB652}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TheRunningRobot">
+			<UniqueIdentifier>{84D533CF-F030-4DD2-BC4E-AA12BF78A443}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TheRunningRobot\TheRunningRobot.Build.cs">
+			<Filter>Source\TheRunningRobot</Filter>
+		</None >
+		<Filter Include="Source\TheRunningRobot\Private">
+			<UniqueIdentifier>{C9277121-C2FE-4534-B69A-07F471CD20FB}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TheRunningRobot\Private\TheRunningRobot.cpp">
+			<Filter>Source\TheRunningRobot\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TheRunningRobot\Private\TheRunningRobotCharacter.cpp">
+			<Filter>Source\TheRunningRobot\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TheRunningRobot\Private\TheRunningRobotGameMode.cpp">
+			<Filter>Source\TheRunningRobot\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TheRunningRobot\Private\TheRunningRobotPlayerController.cpp">
+			<Filter>Source\TheRunningRobot\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\TheRunningRobot\Public">
+			<UniqueIdentifier>{B9B75BAC-7987-48F9-8901-09C4664525AF}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\TheRunningRobot\Public\TheRunningRobot.h">
+			<Filter>Source\TheRunningRobot\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TheRunningRobot\Public\TheRunningRobotCharacter.h">
+			<Filter>Source\TheRunningRobot\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TheRunningRobot\Public\TheRunningRobotGameMode.h">
+			<Filter>Source\TheRunningRobot\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TheRunningRobot\Public\TheRunningRobotPlayerController.h">
+			<Filter>Source\TheRunningRobot\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\TheRunningRobot\Resources">
+			<UniqueIdentifier>{A4101A4F-C3A9-4111-93A6-A5C48DF1FA03}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\TheRunningRobot\Resources\Windows">
+			<UniqueIdentifier>{ECE4F870-F0D7-43B2-9390-AE51FB9CB297}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TheRunningRobot\Resources\Windows\TheRunningRobot.ico">
+			<Filter>Source\TheRunningRobot\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\TheRunningRobot\Resources\Windows\TheRunningRobot.rc">
+			<Filter>Source\TheRunningRobot\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
